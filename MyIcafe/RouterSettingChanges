@@ -14,4 +14,10 @@ I know what is the bug
 January 14,2016 4:30pm
 I trying to repair and install the layer7 ung manually copying the files to the router
 After reboot need to copy libxt_layer7.So and libxt_string.so to usr\lib\iptables of the router
-and run modprobe
+and run modprobe....Failed
+
+
+Layer 7 is not working
+iptables: match "layer7" has version "libxtables.so.5", but "libxtables.so.10" is required.
+error ing the terminal
+
