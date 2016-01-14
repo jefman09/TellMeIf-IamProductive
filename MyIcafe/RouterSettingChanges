@@ -10,3 +10,4 @@ I know what is the bug
 -Due to insufficient storage so cannot save settings
 -Due to the web monitoring is on in default that fill that limited space
 -THe remedy is to delete the data of webmon folder inside of the router
+-Another in my observation is need to delete data on bandwidth monitoring page regularly 
