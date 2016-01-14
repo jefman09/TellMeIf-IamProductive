@@ -11,3 +11,7 @@ I know what is the bug
 -Due to the web monitoring is on in default that fill that limited space
 -THe remedy is to delete the data of webmon folder inside of the router
 -Another in my observation is need to delete data on bandwidth monitoring page regularly 
+January 14,2016 4:30pm
+I trying to repair and install the layer7 ung manually copying the files to the router
+After reboot need to copy libxt_layer7.So and libxt_string.so to usr\lib\iptables of the router
+and run modprobe
