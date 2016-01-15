@@ -24,3 +24,8 @@ error ing the terminal
 Edit the files with 
 usr/data/bwmon change to tmp/data/bwmonn
 para di na masave sa router flash ung data at para di ma-out of space ung router flash
+
+Friday January 15,2015
+May nakita akong Backup files ng Router sa /rom binackup ko muna saka ko idedelete, let see what happen
+Fail /rom is a read only file used for failsafe recovery
+
