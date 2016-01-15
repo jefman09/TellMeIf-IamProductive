@@ -25,7 +25,29 @@ Edit the files with
 usr/data/bwmon change to tmp/data/bwmonn
 para di na masave sa router flash ung data at para di ma-out of space ung router flash
 
+
+
 Friday January 15,2015
 May nakita akong Backup files ng Router sa /rom binackup ko muna saka ko idedelete, let see what happen
 Fail /rom is a read only file used for failsafe recovery
+
+
+January 16, 2016
+-Ayun nakasira po ako ng isa nanaman na router(TP-LINK WR941ndv5.1 cost 900 discounted) nasobrahan ko ng init ung 
+Hot Air Machine ayun natunaw ung Flash Chip nya hayyyy(di pala kaya nya ang ganun kainit hahah) deficit eh
+
+-Gladly nabalik ko na ung Router ko sa standard settings ko
+si-Sysuprade ko
+copy the right qos.js in .js folder
+qos.js- edit hfsc to htb and imq0 to eth1(match case boot small and cap) due to compiling error
+qosmon edit hfsc to htb (match case boot small and cap) due to compiling error
+rc.local  add txqueuelen settings
+copy qos settings to config folder
+cp firewall settings to config folder
+open in the browser 10.10.10.1/webmon.sh  and disable the webmonitor
+-----ang gagawin ko pa ngayon ung 
+bwmon save area ilagay sa /tmp folder(sa RAM)
+
+
+
 
