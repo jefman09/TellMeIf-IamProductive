@@ -21,12 +21,6 @@ Layer 7 is not working
 iptables: match "layer7" has version "libxtables.so.5", but "libxtables.so.10" is required.
 error ing the terminal
 
-Edit the files with 
-usr/data/bwmon change to tmp/data/bwmonn
-para di na masave sa router flash ung data at para di ma-out of space ung router flash
-
-
-
 Friday January 15,2015
 May nakita akong Backup files ng Router sa /rom binackup ko muna saka ko idedelete, let see what happen
 Fail /rom is a read only file used for failsafe recovery
@@ -47,6 +41,14 @@ cp firewall settings to config folder
 open in the browser 10.10.10.1/webmon.sh  and disable the webmonitor
 -----ang gagawin ko pa ngayon ung 
 bwmon save area ilagay sa /tmp folder(sa RAM)
+
+Edit the files with 
+usr/data/bwmon change to tmp/data/bwmonn
+para di na masave sa router flash ung data at para di ma-out of space ung router flash
+-Di ko na papaganahin ung Layer7 functionality
+
+-Ayun nakita ko na pla ung USB to TTL converter ko(Pangdebrick po ng ROuter)
+Plano ko nang ipabenta ung mga router na di supported ng ginagamit kong technology
 
 
 
