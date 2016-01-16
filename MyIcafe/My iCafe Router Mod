@@ -38,6 +38,8 @@ qosmon edit hfsc to htb (match case boot small and cap) due to compiling error
 rc.local  add txqueuelen settings
 copy qos settings to config folder
 cp firewall settings to config folder
+bwmon_grouter edit to write to /tmp
+firewall drop settings for stealth browsing
 open in the browser 10.10.10.1/webmon.sh  and disable the webmonitor
 -----ang gagawin ko pa ngayon ung 
 bwmon save area ilagay sa /tmp folder(sa RAM)
