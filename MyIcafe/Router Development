@@ -1,0 +1,14 @@
+Issue:
+[  123.760000] nf_conntrack: table full, dropping packet
+[  124.060000] nf_conntrack: table full, dropping packet
+
+
+Solution:
+http://www.pc-freak.net/blog/resolving-nf_conntrack-table-full-dropping-packet-flood-message-in-dmesg-linux-kernel-log/
+http://*******/connlimits.sh
+https://security.stackexchange.com/questions/43205/nf-conntrack-table-full-dropping-packet?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+
+
+
+Crontab info
+https://wiki.openwrt.org/doc/howto/cron
