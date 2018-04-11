@@ -59,6 +59,12 @@ Bumili ako ng FLash chips sa E-gizmo sa may Taft
 150 per Pc. of AT25DF641
 
 
+HArd time with erratic PLDT connection
+drop to
+limit 1100p flows 1000  DL and UL setting
+due to erratic connection. hoping ir works
+
+
 
 
 
