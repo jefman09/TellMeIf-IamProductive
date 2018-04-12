@@ -64,7 +64,8 @@ drop to
 limit 1100p flows 1000  DL and UL setting
 due to erratic connection. hoping ir works
 
-
+Sysctl Tweaks
+https://easyengine.io/tutorials/linux/sysctl-conf/
 
 
 
