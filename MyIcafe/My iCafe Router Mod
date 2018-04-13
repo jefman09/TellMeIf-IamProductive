@@ -67,5 +67,19 @@ due to erratic connection. hoping ir works
 Sysctl Tweaks
 https://easyengine.io/tutorials/linux/sysctl-conf/
 
+limit active connections to 50
+iptables -I FORWARD -p tcp -s 192.168.1.10  -m connlimit --connlimit-above 20 -j DROP
+info
+https://unix.stackexchange.com/questions/15352/limit-the-max-connections-per-ip-using-openwrt
+
+
+added in the QOS
+			tc qdisc change dev eth0 parent 1:2 fq_codel  quantum 275 target 5ms interval 50ms noecn
+			tc qdisc change dev eth0 parent 1:3 fq_codel  quantum 400 target 5ms interval 50ms noecn
+			tc qdisc change dev eth0 parent 1:4 fq_codel  quantum 700 target 5ms interval 50ms
+
+			tc qdisc change dev eth1 parent 1:2 fq_codel  quantum 275 target 5ms interval 50ms noecn
+			tc qdisc change dev eth1 parent 1:3 fq_codel  quantum 400 target 5ms interval 50ms noecn
+			tc qdisc change dev eth1 parent 1:4 fq_codel  quantum 800 target 5ms interval 50ms
 
 
