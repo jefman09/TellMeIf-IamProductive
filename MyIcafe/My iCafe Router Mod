@@ -81,5 +81,16 @@ added in the QOS
 			tc qdisc change dev eth1 parent 1:2 fq_codel  quantum 275 target 5ms interval 50ms noecn
 			tc qdisc change dev eth1 parent 1:3 fq_codel  quantum 400 target 5ms interval 50ms noecn
 			tc qdisc change dev eth1 parent 1:4 fq_codel  quantum 800 target 5ms interval 50ms
+			
+edit again
+			tc qdisc change dev eth0 parent 1:2 fq_codel  quantum 275 target 5ms interval 30ms noecn
+			tc qdisc change dev eth0 parent 1:3 fq_codel  quantum 400 target 15ms interval 80ms noecn
+			tc qdisc change dev eth0 parent 1:4 fq_codel  quantum 700 target 25ms interval 150ms
+
+			tc qdisc change dev eth1 parent 1:2 fq_codel  quantum 275 target 5ms interval 30ms noecn
+			tc qdisc change dev eth1 parent 1:3 fq_codel  quantum 400 target 15ms interval 80ms noecn
+			tc qdisc change dev eth1 parent 1:4 fq_codel  quantum 800 target 25ms interval 150ms
+			
+			
 
 
